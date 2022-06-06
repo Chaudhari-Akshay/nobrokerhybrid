@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-05T21:24:30 IST" name="Suite" finished-at="2022-06-05T21:26:27 IST" duration-ms="117594">
+    <groups>
+    </groups>
+    <test started-at="2022-06-05T21:24:30 IST" name="Test1" finished-at="2022-06-05T21:24:38 IST" duration-ms="7934">
+      <class name="TestCases.CommercialOffice">
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.CommercialOffice@5e600dd5]" started-at="2022-06-05T21:24:30 IST" name="btest" finished-at="2022-06-05T21:24:34 IST" duration-ms="4561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.CommercialOffice@5e600dd5]" started-at="2022-06-05T21:24:34 IST" name="bmethod" finished-at="2022-06-05T21:24:34 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.CommercialOffice.officecommercial()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="officecommercial()[pri:0, instance:TestCases.CommercialOffice@5e600dd5]" started-at="2022-06-05T21:24:34 IST" name="officecommercial" finished-at="2022-06-05T21:24:37 IST" duration-ms="3043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- officecommercial -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CommercialOffice@5e600dd5]" started-at="2022-06-05T21:24:37 IST" name="getResult" finished-at="2022-06-05T21:24:37 IST" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=officecommercial status=SUCCESS method=CommercialOffice.officecommercial()[pri:0, instance:TestCases.CommercialOffice@5e600dd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.CommercialOffice@5e600dd5]" started-at="2022-06-05T21:24:38 IST" name="aftest" finished-at="2022-06-05T21:24:38 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- TestCases.CommercialOffice -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-06-05T21:24:38 IST" name="Test2" finished-at="2022-06-05T21:24:49 IST" duration-ms="11791">
+      <class name="TestCases.RA">
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.RA@2a265ea9]" started-at="2022-06-05T21:24:38 IST" name="btest" finished-at="2022-06-05T21:24:44 IST" duration-ms="6595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.RA@2a265ea9]" started-at="2022-06-05T21:24:44 IST" name="bmethod" finished-at="2022-06-05T21:24:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RA.rentalagreement()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="rentalagreement()[pri:0, instance:TestCases.RA@2a265ea9]" started-at="2022-06-05T21:24:44 IST" name="rentalagreement" finished-at="2022-06-05T21:24:47 IST" duration-ms="2722" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="btn btn-primary" id="" type="button">...</button> is not clickable at point (952, 255). Other element would receive the click: <div class="modal-backdrop null"></div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'MINDC1D196', ip: '172.16.44.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\MINDSD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7afe0af41cd0da58a55a47309f909c78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-primary" id="" type="button">...</button> is not clickable at point (952, 255). Other element would receive the click: <div class="modal-backdrop null"></div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'MINDC1D196', ip: '172.16.44.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\MINDSD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7afe0af41cd0da58a55a47309f909c78
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at TestCases.RA.rentalagreement(RA.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rentalagreement -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.RA@2a265ea9]" started-at="2022-06-05T21:24:47 IST" name="getResult" finished-at="2022-06-05T21:24:47 IST" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rentalagreement status=FAILURE method=RA.rentalagreement()[pri:0, instance:TestCases.RA@2a265ea9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.RA@2a265ea9]" started-at="2022-06-05T21:24:47 IST" name="aftest" finished-at="2022-06-05T21:24:49 IST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- TestCases.RA -->
+    </test> <!-- Test2 -->
+    <test started-at="2022-06-05T21:24:49 IST" name="Test3" finished-at="2022-06-05T21:25:03 IST" duration-ms="13933">
+      <class name="TestCases.OwnerPlansApp">
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.OwnerPlansApp@449a4f23]" started-at="2022-06-05T21:24:49 IST" name="btest" finished-at="2022-06-05T21:24:54 IST" duration-ms="4583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.OwnerPlansApp@449a4f23]" started-at="2022-06-05T21:24:54 IST" name="bmethod" finished-at="2022-06-05T21:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.OwnerPlansApp.OwnerPlan()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="OwnerPlan()[pri:0, instance:TestCases.OwnerPlansApp@449a4f23]" started-at="2022-06-05T21:24:54 IST" name="OwnerPlan" finished-at="2022-06-05T21:25:02 IST" duration-ms="8453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OwnerPlan -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.OwnerPlansApp@449a4f23]" started-at="2022-06-05T21:25:02 IST" name="getResult" finished-at="2022-06-05T21:25:03 IST" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OwnerPlan status=SUCCESS method=OwnerPlansApp.OwnerPlan()[pri:0, instance:TestCases.OwnerPlansApp@449a4f23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.OwnerPlansApp@449a4f23]" started-at="2022-06-05T21:25:03 IST" name="aftest" finished-at="2022-06-05T21:25:03 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- TestCases.OwnerPlansApp -->
+    </test> <!-- Test3 -->
+    <test started-at="2022-06-05T21:25:03 IST" name="Test4" finished-at="2022-06-05T21:25:13 IST" duration-ms="9550">
+      <class name="TestCases.Loginapp">
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.Loginapp@4b741d6d]" started-at="2022-06-05T21:25:03 IST" name="btest" finished-at="2022-06-05T21:25:07 IST" duration-ms="3907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.Loginapp@4b741d6d]" started-at="2022-06-05T21:25:07 IST" name="bmethod" finished-at="2022-06-05T21:25:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.Loginapp.Login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="Login()[pri:0, instance:TestCases.Loginapp@4b741d6d]" started-at="2022-06-05T21:25:07 IST" name="Login" finished-at="2022-06-05T21:25:12 IST" duration-ms="4592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.Loginapp@4b741d6d]" started-at="2022-06-05T21:25:12 IST" name="getResult" finished-at="2022-06-05T21:25:12 IST" duration-ms="391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Loginapp.Login()[pri:0, instance:TestCases.Loginapp@4b741d6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.Loginapp@4b741d6d]" started-at="2022-06-05T21:25:12 IST" name="aftest" finished-at="2022-06-05T21:25:13 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- TestCases.Loginapp -->
+    </test> <!-- Test4 -->
+    <test started-at="2022-06-05T21:25:13 IST" name="Test5" finished-at="2022-06-05T21:25:29 IST" duration-ms="16306">
+      <class name="TestCases.BuilderHome">
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.BuilderHome@173ed316]" started-at="2022-06-05T21:25:13 IST" name="btest" finished-at="2022-06-05T21:25:17 IST" duration-ms="3868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.BuilderHome@173ed316]" started-at="2022-06-05T21:25:17 IST" name="bmethod" finished-at="2022-06-05T21:25:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.BuilderHome.NewProject()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="NewProject()[pri:0, instance:TestCases.BuilderHome@173ed316]" started-at="2022-06-05T21:25:17 IST" name="NewProject" finished-at="2022-06-05T21:25:27 IST" duration-ms="10055" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='builderHomeTile']"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'MINDC1D196', ip: '172.16.44.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\MINDSD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52843}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ec88213d73598488308dd39d2622ac9
+*** Element info: {Using=xpath, value=//div[@id='builderHomeTile']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='builderHomeTile']"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'MINDC1D196', ip: '172.16.44.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\MINDSD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52843}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ec88213d73598488308dd39d2622ac9
+*** Element info: {Using=xpath, value=//div[@id='builderHomeTile']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at TestCases.BuilderHome.NewProject(BuilderHome.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewProject -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.BuilderHome@173ed316]" started-at="2022-06-05T21:25:27 IST" name="getResult" finished-at="2022-06-05T21:25:27 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NewProject status=FAILURE method=BuilderHome.NewProject()[pri:0, instance:TestCases.BuilderHome@173ed316] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.BuilderHome@173ed316]" started-at="2022-06-05T21:25:27 IST" name="aftest" finished-at="2022-06-05T21:25:29 IST" duration-ms="2267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- TestCases.BuilderHome -->
+    </test> <!-- Test5 -->
+    <test started-at="2022-06-05T21:25:29 IST" name="Test6" finished-at="2022-06-05T21:25:41 IST" duration-ms="11404">
+      <class name="TestCases.PayRentapp">
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.PayRentapp@248e319b]" started-at="2022-06-05T21:25:29 IST" name="btest" finished-at="2022-06-05T21:25:33 IST" duration-ms="4057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.PayRentapp@248e319b]" started-at="2022-06-05T21:25:33 IST" name="bmethod" finished-at="2022-06-05T21:25:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PayRentapp.Payrent() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="Payrent()[pri:0, instance:TestCases.PayRentapp@248e319b]" started-at="2022-06-05T21:25:33 IST" name="Payrent" finished-at="2022-06-05T21:25:40 IST" duration-ms="6485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payrent -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PayRentapp@248e319b]" started-at="2022-06-05T21:25:40 IST" name="getResult" finished-at="2022-06-05T21:25:40 IST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Payrent status=SUCCESS method=PayRentapp.Payrent()[pri:0, instance:TestCases.PayRentapp@248e319b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.PayRentapp@248e319b]" started-at="2022-06-05T21:25:40 IST" name="aftest" finished-at="2022-06-05T21:25:41 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- TestCases.PayRentapp -->
+    </test> <!-- Test6 -->
+    <test started-at="2022-06-05T21:25:41 IST" name="Test7" finished-at="2022-06-05T21:25:47 IST" duration-ms="6465">
+      <class name="TestCases.Buy">
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.Buy@117159c0]" started-at="2022-06-05T21:25:41 IST" name="btest" finished-at="2022-06-05T21:25:44 IST" duration-ms="3662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.Buy@117159c0]" started-at="2022-06-05T21:25:44 IST" name="bmethod" finished-at="2022-06-05T21:25:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.Buy.Buypro()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="Buypro()[pri:0, instance:TestCases.Buy@117159c0]" started-at="2022-06-05T21:25:44 IST" name="Buypro" finished-at="2022-06-05T21:25:45 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Buypro -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.Buy@117159c0]" started-at="2022-06-05T21:25:45 IST" name="getResult" finished-at="2022-06-05T21:25:45 IST" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Buypro status=SUCCESS method=Buy.Buypro()[pri:0, instance:TestCases.Buy@117159c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.Buy@117159c0]" started-at="2022-06-05T21:25:45 IST" name="aftest" finished-at="2022-06-05T21:25:47 IST" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- TestCases.Buy -->
+    </test> <!-- Test7 -->
+    <test started-at="2022-06-05T21:25:47 IST" name="Test8" finished-at="2022-06-05T21:25:54 IST" duration-ms="6704">
+      <class name="TestCases.FlatsOnRent">
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.FlatsOnRent@19e4653c]" started-at="2022-06-05T21:25:47 IST" name="btest" finished-at="2022-06-05T21:25:51 IST" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.FlatsOnRent@19e4653c]" started-at="2022-06-05T21:25:51 IST" name="bmethod" finished-at="2022-06-05T21:25:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.FlatsOnRent.Flatonrent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="Flatonrent()[pri:0, instance:TestCases.FlatsOnRent@19e4653c]" started-at="2022-06-05T21:25:51 IST" name="Flatonrent" finished-at="2022-06-05T21:25:53 IST" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flatonrent -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.FlatsOnRent@19e4653c]" started-at="2022-06-05T21:25:53 IST" name="getResult" finished-at="2022-06-05T21:25:53 IST" duration-ms="338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flatonrent status=SUCCESS method=FlatsOnRent.Flatonrent()[pri:0, instance:TestCases.FlatsOnRent@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.FlatsOnRent@19e4653c]" started-at="2022-06-05T21:25:53 IST" name="aftest" finished-at="2022-06-05T21:25:54 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- TestCases.FlatsOnRent -->
+    </test> <!-- Test8 -->
+    <test started-at="2022-06-05T21:25:54 IST" name="Test9" finished-at="2022-06-05T21:26:11 IST" duration-ms="16776">
+      <class name="TestCases.PlayVideoApp">
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.PlayVideoApp@548d708a]" started-at="2022-06-05T21:25:54 IST" name="btest" finished-at="2022-06-05T21:25:57 IST" duration-ms="3559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.PlayVideoApp@548d708a]" started-at="2022-06-05T21:25:57 IST" name="bmethod" finished-at="2022-06-05T21:25:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PlayVideoApp.PlayVideoapp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="PlayVideoapp()[pri:0, instance:TestCases.PlayVideoApp@548d708a]" started-at="2022-06-05T21:25:57 IST" name="PlayVideoapp" finished-at="2022-06-05T21:26:08 IST" duration-ms="10398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlayVideoapp -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PlayVideoApp@548d708a]" started-at="2022-06-05T21:26:08 IST" name="getResult" finished-at="2022-06-05T21:26:08 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlayVideoapp status=SUCCESS method=PlayVideoApp.PlayVideoapp()[pri:0, instance:TestCases.PlayVideoApp@548d708a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.PlayVideoApp@548d708a]" started-at="2022-06-05T21:26:08 IST" name="aftest" finished-at="2022-06-05T21:26:11 IST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- TestCases.PlayVideoApp -->
+    </test> <!-- Test9 -->
+    <test started-at="2022-06-05T21:26:11 IST" name="Test10" finished-at="2022-06-05T21:26:18 IST" duration-ms="7101">
+      <class name="TestCases.AboutUs">
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.AboutUs@742ff096]" started-at="2022-06-05T21:26:11 IST" name="btest" finished-at="2022-06-05T21:26:14 IST" duration-ms="3748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.AboutUs@742ff096]" started-at="2022-06-05T21:26:14 IST" name="bmethod" finished-at="2022-06-05T21:26:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.AboutUs.Aboutus()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="Aboutus()[pri:0, instance:TestCases.AboutUs@742ff096]" started-at="2022-06-05T21:26:14 IST" name="Aboutus" finished-at="2022-06-05T21:26:15 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aboutus -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.AboutUs@742ff096]" started-at="2022-06-05T21:26:15 IST" name="getResult" finished-at="2022-06-05T21:26:15 IST" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Aboutus status=SUCCESS method=AboutUs.Aboutus()[pri:0, instance:TestCases.AboutUs@742ff096] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.AboutUs@742ff096]" started-at="2022-06-05T21:26:15 IST" name="aftest" finished-at="2022-06-05T21:26:18 IST" duration-ms="2338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- TestCases.AboutUs -->
+    </test> <!-- Test10 -->
+    <test started-at="2022-06-05T21:26:18 IST" name="Test11" finished-at="2022-06-05T21:26:27 IST" duration-ms="9531">
+      <class name="TestCases.SignUp">
+        <test-method is-config="true" signature="beforesuit()[pri:0, instance:TestCases.SignUp@4c60d6e9]" started-at="2022-06-05T21:24:29 IST" name="beforesuit" finished-at="2022-06-05T21:24:30 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method is-config="true" signature="btest()[pri:0, instance:TestCases.SignUp@4c60d6e9]" started-at="2022-06-05T21:26:18 IST" name="btest" finished-at="2022-06-05T21:26:21 IST" duration-ms="3744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method signature="Signup()[pri:0, instance:TestCases.SignUp@4c60d6e9]" started-at="2022-06-05T21:26:21 IST" name="Signup" finished-at="2022-06-05T21:26:25 IST" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signup -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:TestCases.SignUp@4c60d6e9]" started-at="2022-06-05T21:26:21 IST" name="bmethod" finished-at="2022-06-05T21:26:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.SignUp.Signup()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.SignUp@4c60d6e9]" started-at="2022-06-05T21:26:25 IST" name="getResult" finished-at="2022-06-05T21:26:25 IST" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Signup status=SUCCESS method=SignUp.Signup()[pri:0, instance:TestCases.SignUp@4c60d6e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:TestCases.SignUp@4c60d6e9]" started-at="2022-06-05T21:26:25 IST" name="aftest" finished-at="2022-06-05T21:26:27 IST" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+        <test-method is-config="true" signature="aftersuit()[pri:0, instance:TestCases.SignUp@4c60d6e9]" started-at="2022-06-05T21:26:27 IST" name="aftersuit" finished-at="2022-06-05T21:26:28 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
+      </class> <!-- TestCases.SignUp -->
+    </test> <!-- Test11 -->
+  </suite> <!-- Suite -->
+</testng-results>
